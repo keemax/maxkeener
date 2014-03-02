@@ -1,0 +1,14 @@
+body {
+	background-color: rgb(190, 190, 190);
+	font-family: 'Voces', Arial, serif;
+	font-weight: 400;
+	margin: 0;
+}
+
+p.large {
+	font-size: 50px;
+}
+
+p.medium {
+	font-size: 30px;
+}

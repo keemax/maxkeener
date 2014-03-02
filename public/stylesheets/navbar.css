@@ -1,0 +1,30 @@
+#header {
+	height: 50px;
+	background: rgb(20, 20, 20);
+}
+#navbar {
+	height: 50px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+
+}
+
+#navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navbar li {
+	float: left;
+}
+
+#navbar a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 14px 20px;
+}
