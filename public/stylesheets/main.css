@@ -5,6 +5,24 @@ body {
 	margin: 0;
 }
 
+div.section {
+	height: 800px;
+}
+
+/* vertically center divs */
+div.center-tile-wrap:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-left: -5px;
+}
+
+div.center-tile {
+	display: inline-block;
+ 	vertical-align: middle;
+}
+
 p.large {
 	font-size: 50px;
 }
