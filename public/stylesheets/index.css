@@ -1,21 +1,67 @@
-#main {
+/* dog section */
+#dog {
 	background-image: url('https://s3-us-west-2.amazonaws.com/maxkeener/images/frankie_sleep_lg.jpg');
 	background-size: 100%;
 	background-repeat: no-repeat;
-	font-family: 'Open-Sans', sans-serif;
 }
 
-#welcome {
+#dog .center-tile {
 	margin-left: 8%;
 }
 
-#welcome span {
+#dog .center-tile span {
 	color: white;
 	font-size: 120px;
 	font-weight: 700;
 	display: inline-block;
 	line-height: 120px;
 	width: 50%;
+	text-shadow: 2px 1px rgb(20, 20, 20);
+}
+
+/* hiking section */
+#hiking {
+	background-image: url('https://s3-us-west-2.amazonaws.com/maxkeener/images/zion_drop_xl.jpg');	
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#hiking .center-tile {
+	width: 100%;
+	text-align: center;
+}
+
+#hiking .center-tile span {
+	color: white;
+	font-size: 120px;
+	font-weight: 700;
+	display: inline-block;
+	line-height: 120px;
+	text-shadow: 2px 1px rgb(20, 20, 20);
+}
+
+/*photography section*/
+#photography {
+	background-image: url('https://s3-us-west-2.amazonaws.com/maxkeener/images/bookshelf_lg.jpg');	
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#photography .center-tile {
+	width: 100%;
+	text-align: right;
+}
+
+#photography .center-tile span {
+	color: white;
+	font-size: 120px;
+	font-weight: 700;
+	display: inline-block;
+	line-height: 120px;
+	text-align: right;
+	width: 40%;
+	margin-right: 10%;
+	text-shadow: 2px 2px rgb(20, 20, 20);
 }
 
 #title p {
