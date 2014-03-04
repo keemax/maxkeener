@@ -1,37 +1,28 @@
-#header {
-	height: 50px;
-	background: rgb(20, 20, 20);
-	text-align: center;
-	font-family: 'Voces', Arial, sans-serif;
-}
-#navbar {
-	display: inline-block;
-	height: 50px;
+#social {
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: rgb(20, 20, 20);
 }
 
-#navbar ul {
+#social ul {
 	list-style-type: none;
-	height: 50px;
 	margin: 0;
 	padding: 0;
 }
 
-#navbar li {
-	float: left;
-}
-
-#navbar a {
+#social a {
 	display: block;
 	color: white;
 	text-decoration: none;
 	padding: 14px 20px;
 }
 
-#navbar li.social a {
-	padding: 9px 15px;
+#social li.social a {
+	padding: 12px 15px;
 }
 
-#navbar li.social img {
+#social li.social img {
 	display: block;
 }
 

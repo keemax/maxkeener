@@ -1,3 +1,21 @@
+/* bio section */
+#about_me {
+	height: 336px;
+	background-color: rgb(20, 20, 20);
+	color: white;
+	font-family: 'Voces', Arial, sans-serif;
+}
+
+#bio_pic {
+	height: 236px;
+	padding: 50px;
+}
+
+#bio {
+	width: 40%;
+	padding: 80px;
+}
+
 /* dog section */
 #dog {
 	background-image: url('https://s3-us-west-2.amazonaws.com/maxkeener/images/frankie_sleep_lg.jpg');

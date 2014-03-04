@@ -5,6 +5,10 @@ body {
 	margin: 0;
 }
 
+.inline {
+	float: left;
+}
+
 div.section {
 	height: 800px;
 }
