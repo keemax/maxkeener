@@ -2,7 +2,7 @@
 	position: fixed;
 	top: 0;
 	right: 0;
-	background-color: rgb(20, 20, 20);
+	background-color: rgba(20, 20, 20, 0.5);
 }
 
 #social ul {
@@ -44,4 +44,8 @@
 
 #flickr:hover {
 	background-color: #ff0084;
+}
+
+#github:hover {
+	background-color: rgb(240, 240, 240);
 }
